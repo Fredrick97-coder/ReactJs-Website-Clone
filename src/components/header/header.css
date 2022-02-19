@@ -109,6 +109,9 @@
 } */
 
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -137,7 +140,7 @@
   list-style: none;
   padding: 20px;
   color: white;
-  font-weight: 400;
+  font-weight: 300;
   cursor: pointer;
 }
 
@@ -164,7 +167,8 @@
   background: transparent;
   outline: none;
   border: none;
-  font-size: 1.25em;
+  font-size: 1em;
+  font-weight: 300;
   color: white;
   border-radius: 5px;
 }
